@@ -29,12 +29,14 @@ if target is not None:
     alvo = []
     #O ALVO DEVERIA TER 22 BASES ENTÃO RETIREI AS OITO ULTIMAS MAS PRECISA DAS TRINTA PRA FAZER O M1 E M2 
 
-    for i in range (0,8,1):
-        lista_arg.pop()
+   for num, i in enumerate(lista_arg):
+        if num in range(0,22,1):
+            alvo.append(i)
+    alvo = "".join(alvo)
         
     lista_arg = "".join(lista_arg)
      
     st.write("M1 5' 3':", m1)
     st.write("M2 5' 3':\n", m2)
-    st.write("Alvo 5' 3':\n", lista_arg)
+    st.write("Alvo 5' 3':\n", alvo)
         
