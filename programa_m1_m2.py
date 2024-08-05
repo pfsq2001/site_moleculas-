@@ -44,8 +44,8 @@ if target is not None:
       c_reverso = "".join(b_reverso)
       #CRIANDO m1 E m2 EM FORMATO DE STRING 
 
-      m1 = a + b + c + b_reverso + c_reverso
-      m2 = b_reverso + c + b + a + c_reverso
+      m1 = a + b + c_reverso + b_reverso + a_reverso
+      m2 = c_reverso + a + b + c + b_reverso
 
       alvo = []
       #O ALVO DEVERIA TER 22 BASES ENTÃO RETIREI AS OITO ULTIMAS MAS PRECISA DAS TRINTA PRA FAZER O M1 E M2 
@@ -104,8 +104,8 @@ if target is not None:
         c_reverso = "".join(b_reverso)
         #CRIANDO m1 E m2 EM FORMATO DE STRING 
         
-        m1 = a + b + c + b_reverso + c_reverso
-        m2 = b_reverso + c + b + a + c_reverso
+        m1 = a + b + c_reverso + b_reverso + a_reverso
+        m2 = c_reverso + a + b + c + b_reverso
         
         alvo = []
         #O ALVO DEVERIA TER 22 BASES ENTÃO RETIREI AS OITO ULTIMAS MAS PRECISA DAS TRINTA PRA FAZER O M1 E M2 
