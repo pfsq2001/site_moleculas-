@@ -1,8 +1,8 @@
 import streamlit as st 
 
 target = st.text_input('colocar a sequencia alvo com 30 bp')
+complemento = st.selectbox('Choose one:', options = ["5' -> 3'", "3' -> 5'"])
 if target is not None:
-    
     a = []
     b = []
     c= []
