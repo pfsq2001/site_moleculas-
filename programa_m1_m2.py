@@ -111,8 +111,8 @@ if target is not None:
         #O ALVO DEVERIA TER 22 BASES ENTÃO RETIREI AS OITO ULTIMAS MAS PRECISA DAS TRINTA PRA FAZER O M1 E M2 
         
         for num, i in enumerate(lista_arg):
-        if num in range(0,22,1):
-              alvo.append(i)
+            if num in range(0,22,1):
+                  alvo.append(i)
         alvo = "".join(alvo)
           
         lista_arg = "".join(lista_arg)
