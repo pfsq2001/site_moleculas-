@@ -27,7 +27,7 @@ if target is not None:
 
     reverso = dict(complemento)
     for i in a:
-      a_reverso.append(reverso[i])
+        a_reverso.append(reverso[i])
     a_reverso.reverse()
     a_reverso = "".join(a_reverso)
 
