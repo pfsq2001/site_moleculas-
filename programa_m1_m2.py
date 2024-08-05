@@ -46,7 +46,7 @@ if target is not None:
 
       m1 = a + b + c_reverso + b_reverso + a_reverso
       m2 = c_reverso + a + b + c + b_reverso
-
+      
       alvo = []
       #O ALVO DEVERIA TER 22 BASES ENTÃO RETIREI AS OITO ULTIMAS MAS PRECISA DAS TRINTA PRA FAZER O M1 E M2 
       
@@ -60,7 +60,7 @@ if target is not None:
       st.write("M1 5' 3':", m1)
       st.write("M2 5' 3':\n", m2)
       st.write("Alvo 5' 3':\n", alvo)
-
+      st.write("C", c)
     elif complemento == "3' -> 5'":
         a = []
         b = []
