@@ -65,8 +65,8 @@ if target is not None:
       a = []
       b = []
       c= []
-      target = target.upper().reverse()
-      lista_arg = list(target)
+      target = target.upper()
+      lista_arg = list(target).reverse()
       for num, i in enumerate(lista_arg):
           if num in range(0,7,1):
               a.append(i)
