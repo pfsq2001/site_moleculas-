@@ -41,7 +41,7 @@ if target is not None:
       for i in c:
           c_reverso.append(reverso[i])
       c_reverso.reverse()
-      c_reverso = "".join(b_reverso)
+      c_reverso = "".join(c_reverso)
       #CRIANDO m1 E m2 EM FORMATO DE STRING 
 
       m1 = a + b + c_reverso + b_reverso + a_reverso
@@ -102,7 +102,7 @@ if target is not None:
         for i in c:
           c_reverso.append(reverso[i])
         c_reverso.reverse()
-        c_reverso = "".join(b_reverso)
+        c_reverso = "".join(c_reverso)
         #CRIANDO m1 E m2 EM FORMATO DE STRING 
         
         m1 = a + b + c_reverso + b_reverso + a_reverso
