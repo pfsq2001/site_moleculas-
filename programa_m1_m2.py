@@ -61,7 +61,7 @@ if target is not None:
       st.write("M2 5' 3':\n", m2)
       st.write("Alvo 5' 3':\n", alvo)
 
-    elif complemento == "5' -> 3'":
+    elif complemento == "3' -> 5'":
       a = []
       b = []
       c= []
