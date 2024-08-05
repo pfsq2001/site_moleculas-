@@ -121,3 +121,5 @@ if target is not None:
         st.write("M1 5' 3':", m1)
         st.write("M2 5' 3':\n", m2)
         st.write("Alvo 5' 3':\n", alvo)
+        st.write("C", c)
+        st.write("Creverso:", c_reverso)  
