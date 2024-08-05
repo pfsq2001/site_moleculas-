@@ -67,7 +67,7 @@ if target is not None:
         c= []
         target = target.upper()
         z = list(target)  
-        lista_arg = z.reverse()
+        lista_arg = z
         
         for num, i in enumerate(lista_arg):
           if num in range(0,7,1):
