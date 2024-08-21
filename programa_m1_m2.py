@@ -65,7 +65,7 @@ if target is not None:
       st.write("A", a)
       st.write("b", b)
       st.write("A_reverso", a_reverso)
-      st.write("B_reverso, b_reverso)
+      st.write("B_reverso", b_reverso)
     elif complemento == "3' -> 5'":
         a = []
         b = []
